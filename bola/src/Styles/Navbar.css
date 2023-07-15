@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url("./Gilroy-Medium.ttf");
+  }
+
+
+  @font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: url("./Gilroy-ExtraBold.ttf");
+  }
+
+.navdad{
+    width: 100%;
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2_1{
+    width: 50%;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    margin-right: 200px;
+    line-height: 21.09px;
+    color: #313131;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.nav2_2{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 21.09px;
+    color: #313131;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #313131;
+}
+
+.nav-four, .mobile-link{
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+}
+
+.bars, .times{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 500px){
+    .navdad{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav{
+        width: 95%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .nav2_1{
+        width: 100%;
+        height: 250px;
+        padding-right: 50px;
+        font-family: 'Gilroy-Medium';
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 21.09px;
+        color: #313131;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .nav2_2{
+        width: 100%;
+        height: 100px;
+        padding-right: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Gilroy-Medium';
+        font-size: 18px;
+        line-height: 21.09px;
+        color: #313131;
+    }
+
+    .nav-four{
+        display: none;
+        justify-content: space-between;
+        width: 40%;
+    }
+
+    .nav a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .mobile-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 470px;
+        background-color: #002099;
+        position: absolute;
+        left: 60px;
+        left: 0;
+    }
+
+    .bars, .time{
+        display: flex;
+        height: 45px;
+        width: 100px;
+        margin-bottom: 200px;
+    }
+}
